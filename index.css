@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.customIcon {
+  transition: all 0.3s; /* Add a smooth transition effect */
+}
+
+.customIcon:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#map {
+  height: 800px;
+  width: 1000px;
+  margin: 0 auto;
+}
