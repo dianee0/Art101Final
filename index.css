@@ -6,18 +6,19 @@ h1 {
   margin: 0 auto;
 }
 
-.customIcon {
-  transition: all 0.3s; /* Add a smooth transition effect */
-}
-
-.customIcon:hover {
-  opacity: 0.8;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
 #map {
+  display: none; /* Hide the map by default */
   height: 800px;
   width: 1000px;
   margin: 0 auto;
   background-color: #FFFFFF; /* Set the desired background color */
+}
+
+#description-container {
+  display: none; /* Hide the description container by default */
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
 }

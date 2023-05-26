@@ -120,8 +120,52 @@ meadowMarker.bindTooltip("haunted meadows");
 
 sammyMarker.bindTooltip("sammy !");
 
-sammyMarker.bindTooltip("sammy !");
+sammyMarker2.bindTooltip("sammy was here!");
 
+/* Descriptions and taking you to a "new" page */
 
-  // [36.9960425, -122.07472222222222], // Southwest coordinates
-  // [37.0080556, -122.04138888888889]  // Northeast coordinates
+var descriptionContainer = document.getElementById('description-container');
+var mapContainer = document.getElementById('map');
+var showMapButton = document.getElementById('show-map-button');
+var homepageButton = document.getElementById('homepage-button');
+
+showMapButton.addEventListener('click', function() {
+  mapContainer.style.display = 'block'; // Show the map
+  showMapButton.style.display = 'none'; // Hide the "Show Map" button
+  homepageButton.style.display = 'block'; // Show the "Homepage" button
+});
+
+homepageButton.addEventListener('click', function() {
+  mapContainer.style.display = 'block'; // Show the map
+  showMapButton.style.display = 'none'; // Hide the "Show Map" button
+  homepageButton.style.display = 'none'; // Hide the "Homepage" button
+  descriptionContainer.style.display = 'none'; // Hide the description container
+});
+
+witchMarker.on('click', function() {
+  descriptionContainer.innerHTML = "<h2>Witch Location</h2><p>The witch spot is in the woods just past the Porter meadows. There are symbols drawn and carved into trees. As of right now, there is also a net swing among the trees.</p><h2>Lore</h2><p>For years, students and others have come to this spot to practice witchcraft or to simply visit and spend time in nature.</p>";
+  descriptionContainer.style.display = 'block'; // Show the description container
+  mapContainer.style.display = 'none'; // Hide the map
+  homepageButton.style.display = 'block'; // Show the "Homepage" button
+});
+
+pondMarker.on('click', function() {
+  descriptionContainer.innerHTML = "<h2>Pond Location</h2><p>This is the description of the pond location.</p>";
+  descriptionContainer.style.display = 'block'; // Show the description container
+  mapContainer.style.display = 'none'; // Hide the map
+  homepageButton.style.display = 'block'; // Show the "Homepage" button
+});
+
+caveMarker.on('click', function() {
+  descriptionContainer.innerHTML = "<h2>Cave Location</h2><p>This is the description of the cave location.</p>";
+  descriptionContainer.style.display = 'block'; // Show the description container
+  mapContainer.style.display = 'none'; // Hide the map
+  homepageButton.style.display = 'block'; // Show the "Homepage" button
+});
+
+// Add click events to other markers similarly
+
+/* Put more of the functions here */
+
+// Initially hide the "Homepage" button
+homepageButton.style.display = 'none';
