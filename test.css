@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0 auto;
+  }
+
+  body {
+    background-image: url("img/walkingmap.png"); /* Replace "map.jpg" with the path to your map image */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center top 50px;
+    background-size: 80%;
+}
