@@ -42,7 +42,7 @@ var gardenIcon = L.icon({
 });
 
 var pogonipIcon = L.icon({
-  iconUrl: 'img/pond.png',
+  iconUrl: 'img/pond2.png',
   iconSize: [64, 64], // Set the size of the icon
   iconAnchor: [32,32], // Set the anchor point of the icon
 });
@@ -100,27 +100,27 @@ var meadowMarker = L.marker([36.993465199872084, -122.05966244554944], { icon: m
 var sammyMarker = L.marker([36.999290100786006, -122.05981716276749], { icon: sammyIcon }).addTo(map);
 var sammyMarker2 = L.marker([36.99843848812555, -122.06706563856135], { icon: sammyIcon }).addTo(map);
 // Uncomment the following lines to show popups on marker hover
-witchMarker.bindTooltip("witch marker");
+witchMarker.bindTooltip("Witch Spot");
 
-pondMarker.bindTooltip("porter koi pond marker");
+pondMarker.bindTooltip("Porter Koi Pond");
 
-caveMarker.bindTooltip("cave marker")
+caveMarker.bindTooltip("Porter Caves")
 
-treehouseMarker.bindTooltip("tree house");
+treehouseMarker.bindTooltip("Tree House");
 
-buddhaMarker.bindTooltip("buddha statues");
+buddhaMarker.bindTooltip("Buddha Shrine");
 
-wishingtreeMarker.bindTooltip("wishing tree marker");
+wishingtreeMarker.bindTooltip("Wishing Tree");
 
-gardenMarker.bindTooltip("garden of eden marker");
+gardenMarker.bindTooltip("Garden of Eden");
 
-pogonipMarker.bindTooltip("pogonip koi pond marker")
+pogonipMarker.bindTooltip("Pogonip Koi Pond")
 
-meadowMarker.bindTooltip("haunted meadows");
+meadowMarker.bindTooltip("Haunted Meadows");
 
-sammyMarker.bindTooltip("sammy !");
+sammyMarker.bindTooltip("Hi, I'm Sammy!");
 
-sammyMarker2.bindTooltip("sammy was here!");
+sammyMarker2.bindTooltip("Sammy was here!");
 
 /* Descriptions and taking you to a "new" page */
 
