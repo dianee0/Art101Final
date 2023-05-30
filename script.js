@@ -64,18 +64,12 @@ var sammyIcon = L.icon({
 // Initialize the map and set maxBounds
 var map = L.map('map', {
   maxBoundsViscosity: 1.0,
-  center: [37.01637004536174, -122.09053059541569],
+  center: [37.01047202408105, -122.09024620050009],
   zoom: 14,
-  scrollWheelZoom: false, // Disable zooming with the mouse scroll wheel
 });
 
 
 
-// Add a base tile layer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
-  maxZoom: 18,
-}).addTo(map);
 
 // Add the custom image overlay to the map
 var imageUrl = "img/walkingmap.png";

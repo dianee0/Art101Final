@@ -8,10 +8,10 @@ h1 {
 
 #map {
   display: none; /* Hide the map by default */
-  height: 1440px;
-  width: 810px;
+  height: 500px;
+  width: 800px;
   margin: 0 auto;
-  background-color: #FFFFFF; /* Set the desired background color */
+  background-color: #ffffff; /* Set the desired background color */
 }
 
 #description-container {
