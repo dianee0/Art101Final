@@ -66,6 +66,7 @@ var map = L.map('map', {
   maxBoundsViscosity: 1.0,
   center: [37.01047202408105, -122.09024620050009],
   zoom: 14,
+  scrollWheelZoom: false
 });
 
 
@@ -127,11 +128,12 @@ var descriptionContainer = document.getElementById('description-container');
 var mapContainer = document.getElementById('map');
 var showMapButton = document.getElementById('show-map-button');
 var homepageButton = document.getElementById('homepage-button');
+var guideText = document.getElementById('guide');
 
 showMapButton.addEventListener('click', function() {
   mapContainer.style.display = 'block'; // Show the map
   showMapButton.style.display = 'none'; // Hide the "Show Map" button
-  homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'block'; // show map guiding description
 });
 
 homepageButton.addEventListener('click', function() {
@@ -139,6 +141,7 @@ homepageButton.addEventListener('click', function() {
   showMapButton.style.display = 'none'; // Hide the "Show Map" button
   homepageButton.style.display = 'none'; // Hide the "Homepage" button
   descriptionContainer.style.display = 'none'; // Hide the description container
+  guideText.style.display = 'block'; // show map guiding description
 });
 
 witchMarker.on('click', function() {
@@ -146,6 +149,8 @@ witchMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
+
 });
 
 pondMarker.on('click', function() {
@@ -153,6 +158,7 @@ pondMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 caveMarker.on('click', function() {
@@ -160,6 +166,7 @@ caveMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 treehouseMarker.on('click', function() {
@@ -167,6 +174,7 @@ treehouseMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 buddhaMarker.on('click', function() {
@@ -174,6 +182,7 @@ buddhaMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 wishingtreeMarker.on('click', function() {
@@ -181,6 +190,7 @@ wishingtreeMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 gardenMarker.on('click', function() {
@@ -188,6 +198,7 @@ gardenMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 pogonipMarker.on('click', function() {
@@ -195,6 +206,7 @@ pogonipMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 meadowMarker.on('click', function() {
@@ -202,6 +214,7 @@ meadowMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 sammyMarker.on('click', function() {
@@ -209,6 +222,7 @@ sammyMarker.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 sammyMarker2.on('click', function() {
@@ -216,6 +230,7 @@ sammyMarker2.on('click', function() {
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
 });
 
 
