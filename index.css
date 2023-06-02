@@ -2,10 +2,24 @@
   text-align: center;
 }
 
+body {
+  background-color: rgb(94, 165, 94);
+}
+
+
+@font-face {
+  font-family: customFont;
+  src: url(./fonts/Oversouthregulardemo-GOnVa.otf);
+}
+
+
 h1 {
   margin: 0 auto;
   font-size: 60px;
-  font-family: impact;
+  font-family: customFont;
+  color: gold;
+  background-color: blue;
+  border: solid 3px darkgreen;
 }
 
 #map {
