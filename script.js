@@ -234,5 +234,6 @@ sammyMarker2.on('click', function() {
 });
 
 
+
 // Initially hide the "Homepage" button
 homepageButton.style.display = 'none';
