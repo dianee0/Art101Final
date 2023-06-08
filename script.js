@@ -88,7 +88,6 @@ var map = L.map('map', {
 });
 
 
-
 // Add the custom image overlay to the map
 var imageUrl = "img/walkingmap.png";
 var imageBounds = [
