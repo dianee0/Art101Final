@@ -165,7 +165,7 @@ homepageButton.addEventListener('click', function() {
 });
 
 witchMarker.on('click', function() {
-  descriptionContainer.innerHTML = "<img src='img/witch.png' width='20%' style='display: block; margin: 0 auto;'><p style='text-align: center; font-weight: bold;'>Coordinates are NOT KNOWN, but it is near Porter Meadows: 36.99479794193654, -122.06780840759106 </p><h2>Location</h2><p>The witch spot is in the woods just past the Porter meadows. There are symbols drawn and carved into trees. As of right now, there is also a net swing among the trees.</p><h2>Lore</h2><p>For years, students and others have come to this spot to practice witchcraft or to simply visit and spend time in nature.</p><img src='places/witchspot01.jpeg' width='80%'><img src='places/witchspot02.jpeg' width='80%'><img src='places/witchspot04.jpeg' width='80%'>";
+  descriptionContainer.innerHTML = "<img src='img/witch.png' width='20%' style='display: block; margin: 0 auto;'><p style='text-align: center; font-weight: bold;'>Coordinates are NOT KNOWN, but it is near Porter Meadows: 36.99479794193654, -122.06780840759106 </p><h2>Location</h2><p>The witch spot is in the woods just past the Porter meadows. There are symbols drawn and carved into trees.  As of right now, there is also a net swing among the trees.</p><h2>Lore</h2><p>For years, students and others have come to this spot to practice witchcraft or to simply visit and spend time in nature. Groups and clubs such as the Spiritual Pagan Student Alliance often use the space to practice witchcraft, and artists such as @ucsc.swings (on instagram) have installed pieces there. </p><img src='places/witchspot01.jpeg' width='80%'><img src='places/witchspot02.jpeg' width='80%'><img src='places/witchspot04.jpeg' width='80%'>";
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
@@ -182,7 +182,7 @@ pondMarker.on('click', function() {
 });
 
 caveMarker.on('click', function() {
-  descriptionContainer.innerHTML = "<img src='img/cave.png' width='20%' style='display: block; margin: 0 auto;'><p style='text-align: center; font-weight: bold;'>Coordinates: 36.99598016958417, -122.0687447736907</p><h2>Location</h2><p>The Porter Cave, also known as the Empire Cave, is in the Cave Gulch area past the Porter meadows.</p><h2>Lore</h2><p> The Porter Cave is home to many interesting plants and animals, including the Dolloff Spider and the Empire Cave pseudoscorpion that have almost only been found in this cave and nowhere else.  Also, people that visit the caves have reported seeing mud sculptures left by past visitors.</p> <img src='places/cave.jpeg' width='80%'> <img src='places/cave01.JPG' width='80%'> <img src='places/cave02.jpeg' width='80%'> <img src='places/cave03.JPG' width='80%'>";
+  descriptionContainer.innerHTML = "<img src='img/cave.png' width='20%' style='display: block; margin: 0 auto;'><p style='text-align: center; font-weight: bold;'>Coordinates: 36.99598016958417, -122.0687447736907</p><h2>Location</h2><p>The Porter Cave, also known as the Empire Cave, is in the Cave Gulch area past the Porter meadows.  The cave can be dangerous to visit in the wet weather, as mud and pools of water form when the rain collects.  Across the road is another cave that is more difficult to explore called “Hell Hole.”</p><h2>Lore</h2><p>The Porter Cave is home to many interesting plants and animals, including the Dolloff Spider and the Empire Cave pseudoscorpion that have practically been found solely in this cave and nowhere else.  It is encouraged that visitors should pick up trash on their way out since it threatens the endemic species in the caves.  Also, people that visit the caves have reported seeing mud sculptures left by past visitors</p> <img src='places/cave.jpeg' width='80%'> <img src='places/cave01.JPG' width='80%'> <img src='places/cave02.jpeg' width='80%'> <img src='places/cave03.JPG' width='80%'>";
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
@@ -214,7 +214,7 @@ wishingtreeMarker.on('click', function() {
 });
 
 gardenMarker.on('click', function() {
-  descriptionContainer.innerHTML = "<img src='img/garden.png' width='20%' style='display: block; margin: 0 auto;'><p style='text-align: center; font-weight: bold;'>Coordinates: 37.02473782998077, -122.05780903827328</p><h2>Location</h2><p>The Garden of Eden is a beautiful swimming hole and nature spot for not only UCSC students but everyone to enjoy. It consists of a river among the forest, and is the perfect place to swim, relax, and enjoy nature. It is known for being one of the most beautiful spots to visit just off of campus. It is located along the San Lorenzo River and is closest to the Crown and Merrill Colleges.</p><h2>Lore</h2><p>The Garden of Eden is known as an essential hangout spot for students at UCSC. There isn’t any crazy groundbreaking story, but the location is very important to student life.</p> <img src='places/gardenOfEden01.jpeg' width='80%'><img src='places/gardenOfEden02.png' width='80%'>";
+  descriptionContainer.innerHTML = "<img src='img/garden.png' width='20%' style='display: block; margin: 0 auto;'><p style='text-align: center; font-weight: bold;'>Coordinates: 37.02473782998077, -122.05780903827328</p><h2>Location</h2><p>The Garden of Eden is a beautiful swimming hole and nature spot for not only UCSC students but everyone to enjoy. It consists of a river among the forest, and is the perfect place to swim, relax, and enjoy nature. It is known for being one of the most beautiful spots to visit just off of campus. It is located along the San Lorenzo River and is closest to the Crown and Merrill Colleges.</p><h2>Lore</h2><p>The Garden of Eden is known as an essential hangout spot for students at UCSC. There isn’t any crazy groundbreaking story, but the location is very important to student life. Students, tourists, and locals all gather there to enjoy the river and have some fun in the sun!</p> <img src='places/gardenOfEden01.jpeg' width='80%'><img src='places/gardenOfEden02.png' width='80%'>";
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
@@ -268,7 +268,6 @@ sammyMarker4.on('click', function() {
   homepageButton.style.display = 'block'; // Show the "Homepage" button
   guideText.style.display = 'none'; // hide map guiding description
 });
-
 
 // Initially hide the "Homepage" button
 homepageButton.style.display = 'none';
