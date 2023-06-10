@@ -149,7 +149,7 @@ var map = L.map('map', {
 
 
 // Add the custom image overlay to the map
-var imageUrl = "img/walkingmap.png";
+var imageUrl = "img/map.png";
 var imageBounds = [
   [36.978216288676336, -122.07609943616285], // Southwest coordinates
   [37.008983591650455, -122.0333580120721]  // Northeast coordinates
