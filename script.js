@@ -67,14 +67,74 @@ var sammy2Icon = L.icon({
 
 var sammy3Icon = L.icon({
   iconUrl: 'img/sammy3.png',
-  iconSize: [70, 50], // Set the size of the icon
-  iconAnchor: [35, 25], // Set the anchor point of the icon
+  iconSize: [60, 40], // Set the size of the icon
+  iconAnchor: [30, 20], // Set the anchor point of the icon
 });
 
 var sadsammyIcon = L.icon({
   iconUrl: 'img/sadsammy.png',
-  iconSize: [70, 50], // Set the size of the icon
-  iconAnchor: [35, 25], // Set the anchor point of the icon
+  iconSize: [60, 40], // Set the size of the icon
+  iconAnchor: [30, 20], // Set the anchor point of the icon
+});
+
+var  college910= L.icon({
+  iconUrl: 'img/C9JRL.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var cowell = L.icon({
+  iconUrl: 'img/COWELL.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var crown = L.icon({
+  iconUrl: 'img/CROWN.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var merrill = L.icon({
+  iconUrl: 'img/MERRILL.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var oakes = L.icon({
+  iconUrl: 'img/OAKES.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var porterKres = L.icon({
+  iconUrl: 'img/PORTERKRESGE.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var rcc = L.icon({
+  iconUrl: 'img/RCC.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var stevenson = L.icon({
+  iconUrl: 'img/STEVENSON.png',
+  iconSize: [126, 126], // Set the size of the icon
+  iconAnchor: [63, 63], // Set the anchor point of the icon
+});
+
+var turkey = L.icon({
+  iconUrl: 'img/turkey.PNG',
+  iconSize: [60, 60], // Set the size of the icon
+  iconAnchor: [30, 30], // Set the anchor point of the icon
+});
+
+var deer = L.icon({
+  iconUrl: 'img/deer.PNG',
+  iconSize: [60, 60], // Set the size of the icon
+  iconAnchor: [30, 30], // Set the anchor point of the icon
 });
 
 /* end of icons */
@@ -96,24 +156,41 @@ var imageBounds = [
 ];
 var imageOverlay = L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-
 // Add a marker with the custom icon
-var witchMarker = L.marker([36.9866585104142, -122.065148949904], { icon: witchIcon }).addTo(map);
-var pondMarker = L.marker([36.98631571233535, -122.07276642348121], { icon: pondIcon }).addTo(map);
-var caveMarker = L.marker([36.98071912125029, -122.06750568014475], { icon: caveIcon }).addTo(map);
+var witchMarker = L.marker([36.98855495395157, -122.07311687973107], { icon: witchIcon }).addTo(map);
+var pondMarker = L.marker([36.990743433125544, -122.0666787887893], { icon: pondIcon }).addTo(map);
+var caveMarker = L.marker([36.983074309504644, -122.07182957376152], { icon: caveIcon }).addTo(map);
 
-var treehouseMarker = L.marker([36.99095743162578, -122.07078977081409], { icon: treehouseIcon }).addTo(map);
+var treehouseMarker = L.marker([36.99397788876648, -122.07343175433796], { icon: treehouseIcon }).addTo(map);
 var buddhaMarker = L.marker([37.00659030067108, -122.06566885362406], { icon: buddhaIcon }).addTo(map);
-var wishingtreeMarker = L.marker([37.00683884024253, -122.06001471349225], { icon: wishingtreeIcon }).addTo(map);
+var wishingtreeMarker = L.marker([37.00261134915886, -122.06334268270705], { icon: wishingtreeIcon }).addTo(map);
 
-var gardenMarker = L.marker([37.006702081177785, -122.04035703404674], { icon: gardenIcon }).addTo(map);
-var pogonipMarker = L.marker([37.00610565605814, -122.05147816360324], { icon: pogonipIcon }).addTo(map);
-var meadowMarker = L.marker([37.000370297216016, -122.0432001451485], { icon: meadowIcon }).addTo(map);
+var gardenMarker = L.marker([37.00671952132072, -122.04488653196965], { icon: gardenIcon }).addTo(map);
+var pogonipMarker = L.marker([36.99944856545893, -122.05623140568512], { icon: pogonipIcon }).addTo(map);
+var meadowMarker = L.marker([36.99557930353447, -122.04727732871699], { icon: meadowIcon }).addTo(map);
 
-var sammyMarker = L.marker([36.999290100786006, -122.05981716276749], { icon: sammyIcon }).addTo(map);
-var sammyMarker2 = L.marker([36.99843848812555, -122.06706563856135], { icon: sammy2Icon }).addTo(map);
-var sammyMarker3 = L.marker([36.9914, -122.0609], { icon: sammy3Icon }).addTo(map);
-var sammyMarker4 = L.marker([36.992622999976874, -122.04802450176089], { icon: sadsammyIcon }).addTo(map);
+/* Animals & Critters */
+
+var sammyMarker = L.marker([36.999818549341185, -122.04407420834434], { icon: sammyIcon }).addTo(map);
+var sammyMarker2 = L.marker([36.998438472191324, -122.06865347131846], { icon: sammy2Icon }).addTo(map);
+var sammyMarker3 = L.marker([36.98371211404681, -122.04699933794046], { icon: sammy3Icon }).addTo(map);
+var sammyMarker4 = L.marker([37.005748593454676, -122.05563011691878], { icon: sadsammyIcon }).addTo(map);
+
+var turkeyMarker = L.marker([36.987507386539, -122.04375013170626], { icon: turkey }).addTo(map);
+var deerMarker = L.marker([37.00401441207878, -122.05030051576693], { icon: deer }).addTo(map);
+
+/* College icons */
+
+var college910Marker = L.marker([36.99509324117484, -122.06021341355925], { icon: college910 }).addTo(map);
+var cowellMarker = L.marker([36.98772104817247, -122.05363583255152], { icon: cowell }).addTo(map);
+var crownMarker = L.marker([36.99369141047491, -122.05395327783538], { icon: crown }).addTo(map);
+var merrillMarker = L.marker([36.99251157172391, -122.05302414125191], { icon: merrill }).addTo(map);
+
+var oakesMarker = L.marker([36.984946944315574, -122.05940863066844], { icon: oakes }).addTo(map);
+var porterKresMarker = L.marker([36.9914, -122.0609], { icon: porterKres }).addTo(map);
+var rccMarker = L.marker([36.98646383687299, -122.05991291379839], { icon: rcc }).addTo(map);
+var stevensonMarker = L.marker([36.98921233827497, -122.0528739730032], { icon: stevenson }).addTo(map);
+
 // Uncomment the following lines to show popups on marker hover
 witchMarker.bindTooltip("Witch Spot");
 
@@ -140,6 +217,24 @@ sammyMarker2.bindTooltip("Sammy was here!");
 sammyMarker3.bindTooltip("I hope it rains.");
 
 sammyMarker4.bindTooltip("Never kiss a slug!");
+
+turkeyMarker.bindTooltip("Cluck!");
+
+deerMarker.bindTooltip("*grunt*");
+
+
+// COLLEGES
+
+// college910Marker.bindTooltip("College 9 and John R. Lewis College");
+// cowellMarker.bindTooltip("Cowell College");
+// crownMarker.bindTooltip("Crown College");
+// merrillMarker.bindTooltip("Merill College");
+
+// oakesMarker.bindTooltip("Oakes College");
+// porterKresMarker.bindTooltip("Porter and Kresge College");
+// rccMarker.bindTooltip("Rachel Carson College");
+// stevensonMarker.bindTooltip("Stevenson College");
+
 
 /* Descriptions and taking you to a "new" page */
 
@@ -263,6 +358,14 @@ sammyMarker3.on('click', function() {
 
 sammyMarker4.on('click', function() {
   descriptionContainer.innerHTML = "<img src='img/sadsammy.png' width='20%' style='display: block; margin: 0 auto;'><h2>Best Banana Slug Spots</h2><p>There are a few areas around campus that ensure a higher probability of spotting banana slugs.</p><h2>Lore</h2><p>There is a strong connection between the students and their mascot the banana slug.  The history of making it the face of UCSC is an interesting one.  The administration was pushing for the sea lion to be UCSC’s mascot, but the students overwhelmingly advocated for Sammy the Slug; the students won.</p><img src='places/slug01.jpg' width='60%'><img src='places/slug02.jpg' width='60%'>";
+  descriptionContainer.style.display = 'block'; // Show the description container
+  mapContainer.style.display = 'none'; // Hide the map
+  homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
+});
+
+deerMarker.on('click', function() {
+  descriptionContainer.innerHTML = "<img src='img/deer.PNG' width='20%' style='display: block; margin: 0 auto;'><h2>About Deer At UCSC</h2><p>Deer are a common sight across the UCSC campus, gracefully roaming amidst the abundant greenery. They can be spotted throughout the campus, particularly in areas adorned with lush grass, which encompasses a significant portion of the grounds. It is worth noting that, at times, they may unexpectedly dart across roads, leading to cautionary encounters with passing vehicles.</p><h2>Lore</h2><p>The deer at UCSC are active and cherished community members, frequently spotted across the campus. They have favorite spots, including the expansive fields of East Field and West Field. These graceful creatures have become iconic symbols of the campus, embodying the harmonious coexistence of nature and academia. Interactions with students, faculty, and visitors have created a lore of enchanting encounters. The deer's presence serves as a reminder of UCSC's commitment to environmental stewardship and appreciation of nature's beauty.</p><img src='places/deerUCSC.jpeg' width='60%'>";
   descriptionContainer.style.display = 'block'; // Show the description container
   mapContainer.style.display = 'none'; // Hide the map
   homepageButton.style.display = 'block'; // Show the "Homepage" button
