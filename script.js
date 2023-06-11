@@ -372,5 +372,13 @@ deerMarker.on('click', function() {
   guideText.style.display = 'none'; // hide map guiding description
 });
 
+turkeyMarker.on('click', function() {
+  descriptionContainer.innerHTML = "<img src='img/turkey.PNG' width='20%' style='display: block; margin: 0 auto;'><h2>About Turkey's At UCSC</h2><p>Frequently spotted within and around the UCSC campus, turkeys bring a unique charm to the local environment. While these birds may initially appear harmless, it's crucial to acknowledge their potential for displaying aggressive behavior. With their energetic nature and surprising ability to climb trees, turkeys actively engage with the UCSC community, captivating students and visitors alike. Respecting their natural instincts and exercising caution, the presence of these abundant and agile birds adds an intriguing dimension to the UCSC experience.</p><h2>Lore</h2><p>There are turkeys all over the UCSC campus. They can be found in trees, looking down at their choice of prey among students, waiting to attack. Like their equally-tasty chicken counterparts, turkeys also like to cross the road. Their grand entrances are usually made at sunrise with a chorus of shrieks, signaling to the community that the day has begun.</p><img src='places/turkeyUCSC.jpeg' width='60%'>";
+  descriptionContainer.style.display = 'block'; // Show the description container
+  mapContainer.style.display = 'none'; // Hide the map
+  homepageButton.style.display = 'block'; // Show the "Homepage" button
+  guideText.style.display = 'none'; // hide map guiding description
+});
+
 // Initially hide the "Homepage" button
 homepageButton.style.display = 'none';
