@@ -15,7 +15,9 @@ h1 {
   font-family: customFont;
   background-color: rgb(184,183,125); /* Set the desired background color */
   border: 2px solid #111;
-  color: #2d2d2d
+  color: #2d2d2d;
+  padding: 10px;
+  border-radius: 50px 20px;
 }
 
 @font-face {
@@ -29,7 +31,9 @@ h1 {
   width: 800px;
   margin: 0 auto;
   background-color: rgb(184,183,125); /* Set the desired background color */
-
+  border: 2px solid #111;
+  padding: 10px;
+  border-radius: 50px 20px;
 }
 
 #description-container {
